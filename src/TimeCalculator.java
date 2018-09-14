@@ -6,7 +6,7 @@ public class TimeCalculator {
     }
 
     double secondAmount (int d, int h, int min, int sec) {
-        int seconds = (sec * 1) + (min * 60) + (h * 60 * 60) + (d * 60 * 60 * 60);
+        int seconds = (sec * 1) + (min * 60) + (h * 60 * 60) + (d * 24 * 60 * 60);
         return seconds;
     }
 
