@@ -15,5 +15,17 @@ public class Person {
         age++;
     }
 
+    void changeAge(int change) {
+        age = age + change;
+    }
+
+     String showInfo() {
+       return firstName + ", " + lastName + ", " + age + ", "+ city;
+    }
+
+//    void showInfo1() {
+//        System.out.printf(" ");
+//    }
+
 
 }
