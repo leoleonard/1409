@@ -8,4 +8,11 @@ public class Calculator {
     void addAndShow(double a, double b) {// void jako typ zwracanych danych
         System.out.println(a + b);
     }
+
+    void addAndShow(int a, int b) {
+        // oblicz i wyswietl
+            int suma = add(a, b);
+            System.out.println(suma);
+
+    }
 }

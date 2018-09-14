@@ -13,6 +13,9 @@ public class Test {
         calc.addAndShow(5.5, 8); //metoda void
         // wynik z void nie mozna dalej uzyc w programie
 
+        calc.addAndShow(100, 40);
+
+
         System.out.println("Koniec programu");
     }
 }
