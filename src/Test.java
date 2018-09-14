@@ -15,6 +15,15 @@ public class Test {
 
         calc.addAndShow(100, 40);
 
+        //przeciazanie metod
+        ComplexCalculator calc1 = new ComplexCalculator();
+        String napis = calc1.add1("Raz", "Dwa");
+        System.out.println(napis);
+
+        double liczby = calc1.add1(11.99, 99.11);
+        System.out.println(liczby);
+
+        //
 
         System.out.println("Koniec programu");
     }

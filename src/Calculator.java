@@ -15,4 +15,10 @@ public class Calculator {
             System.out.println(suma);
 
     }
+
+//    void addAndShow(int a, int b, int c) {
+//
+//        System.out.println(suma);
+//
+//    }
 }
