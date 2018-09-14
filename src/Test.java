@@ -5,7 +5,9 @@ public class Test {
         int suma = calc.add(8, 9); // przypisanie return do zmiennej 'suma'
         System.out.println(suma);
 
-        int suma2 = calc.add(2, 3);
+        int suma2 = calc.add(2, 3); // przypisanie calc.add do suma2 (alt + enter)
         System.out.println(suma2);
+
+
     }
 }
