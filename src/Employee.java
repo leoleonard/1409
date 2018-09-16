@@ -3,10 +3,11 @@ public class Employee {
     String lastName;
     double salary;
 
-    Employee(String fn, String ln, double sal) {
-        firstName = fn;
-        lastName = ln;
-        salary = sal;
+    public Employee(String firstName, String lastName, double salary) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.salary = salary;
+
     }
 }
 

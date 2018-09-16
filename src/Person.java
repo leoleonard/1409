@@ -4,11 +4,9 @@ public class Person {
     int age;
     String city;
 
-    Person(String fn, String ln, int a, String c) {
+    Person(String fn, String ln) {
         firstName = fn;
         lastName = ln;
-        age = a;
-        city = c;
     }
 
     void increseAge() {
@@ -23,9 +21,16 @@ public class Person {
        return firstName + ", " + lastName + ", " + age + ", "+ city;
     }
 
-//    void showInfo1() {
-//        System.out.printf(" ");
-//    }
+    void showInfo2() {
+        System.out.println(firstName + " " + lastName + " " + age + " " + city);
+    }
+
+
+    Person(String fn, String ln, int a, String c) {
+        this(fn, ln);
+        age = a;
+        city = c;
+    }
 
 
 }
